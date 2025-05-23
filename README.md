@@ -1,191 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Invitación al Cine - Lilo & Stitch</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fff0f5; /* Rosado suave */
+      color: #333;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
 
-Menú de navegación
-Señor de las estrellas14s
-starlord14s.github.io
+    header {
+      background-color: #87cefa; /* Celeste */
+      color: #fff;
+      padding: 30px 20px;
+      border-bottom: 5px solid #ff69b4; /* Rosa fuerte */
+    }
 
-Código
-Asuntos
-Solicitudes de extracción
-Comportamiento
-Proyectos
-Wiki
-Seguridad
-Avatar del propietario
-starlord14s.github.io
-Público
-Starlord14s/starlord14s.github.io
-Nombre		
-Señor de las estrellas14s
-Señor de las estrellas14s
-Actualizar README.md
-cc66c7f
- · 
-el mes pasado
-README.md
-Actualizar README.md
-el mes pasado
-Imagen de WhatsApp del 15/04/2025 a las 22:19.48.jpeg
-Agregar archivos mediante carga
-el mes pasado
-Navegación por los archivos del repositorio
-LÉAME
-<title>Andy Giler Valverde - CV</title> <style> body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #e6f7ff; /* Fondo color crema */ color: #333; margin: 0; padding: 0; }
-header {
-  background-color: #004080;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  position: relative;
-}
+    h1 {
+      font-size: 36px;
+      margin: 0;
+    }
 
-header img {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 4px solid white;
-  position: absolute;
-  top: 20px;
-  right: 20px;
-}
+    h2 {
+      font-size: 24px;
+      margin: 10px 0;
+      color: #ff69b4;
+    }
 
-h1 {
-  margin: 0;
-  font-size: 28px;
-}
+    .content {
+      padding: 20px;
+    }
 
-h3 {
-  margin-top: 5px;
-  font-weight: normal;
-  font-size: 18px;
-}
+    .image {
+      margin: 20px 0;
+    }
 
-section {
-  padding: 20px;
-  max-width: 900px;
-  margin: auto;
-}
+    .image img {
+      width: 250px;
+      border-radius: 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
 
-.info p {
-  margin: 6px 0;
-}
+    .message {
+      font-size: 20px;
+      background-color: #ffe4e1;
+      padding: 20px;
+      border-radius: 15px;
+      display: inline-block;
+      max-width: 600px;
+      margin-top: 20px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    }
 
-.section-title {
-  background-color: #004080;
-  color: white;
-  padding: 10px;
-  margin-top: 30px;
-  font-size: 20px;
-  border-left: 8px solid #0073e6;
-}
-
-ul {
-  padding-left: 20px;
-}
-
-li {
-  margin-bottom: 8px;
-}
-
-.referencia {
-  margin-top: 10px;
-}
-
-/* Ocultar texto azul de GitHub Pages */
-footer,
-a[href*="github.io"] {
-  display: none !important;
-}
-
-/* Estilos para sección final de explicación */
-.explicacion-estilos {
-  background-color: #fff1cc;
-  border-left: 8px solid #ffbb33;
-  padding: 20px;
-  margin-top: 40px;
-  border-radius: 10px;
-}
-
-.explicacion-estilos ul {
-  padding-left: 25px;
-}
-
-.explicacion-estilos code {
-  background-color: #eee;
-  padding: 2px 6px;
-  border-radius: 4px;
-  font-size: 14px;
-}
-
-.explicacion-estilos strong {
-  color: #cc6600;
-}
-</estilo>
-Andy Giler Valverde
-Mercaderista
-Foto de perfil
-
-📍Guayaquil , Guayas, Ecuador
-
-📧 stevengiler99@hotmail.com
-
-📱 0963953694
-
-🆔 0951816230
-
-14 de septiembre de 1999
-
-🏠 Dirección: Chongón
-
-🎯 Sobre mí
-Soy una persona dinámica, con habilidades en comunicación y orientación al cliente, capaz de generar confianza y mejorar la experiencia de compra. Tengo experiencia en promoción y gestión de productos farmacéuticos, asegurando exhibiciones óptimas y rotación eficiente.
-
-<div class="section-title">💼 Experiencia</div>
-<ul>
-  <li><strong>Mercaderista – Eficacia / RB Mead Johnson</strong> (2024 - Actualidad | Ruta: Norte)</li>
-  <li><strong>Mercaderista – Global Business Solutions / Abbott Nutrición</strong> (2022 - 2024 | Ruta: Norte, Sur y Centro)</li>
-  <li><strong>Asistente Polifuncional – Corporación El Rosado / Comisariato Riocentro Ceibos</strong> (2018 - 2021)</li>
-</ul>
-
-<div class="section-title">🎓 Educación</div>
-<ul>
-  <li><strong>Bachiller en Sistemas de Información</strong> – Unidad Educativa Fiscal Jorge Icaza Coronel</li>
-  <li><strong>Ingeniería en Sistemas</strong> – Universidad de Guayaquil (Cursando 4to semestre)</li>
-</ul>
-
-<div class="section-title">🧠 Capacitación</div>
-<ul>
-  <li>Productos Abbott (Online y presencial)</li>
-  <li>Arte de las Exhibiciones (Online)</li>
-  <li>Riesgo Biomecánico (Online)</li>
-  <li>5 P del Mercadeo (Online)</li>
-  <li>Productos RB Mead Johnson (Online y presencial)</li>
-</ul>
-
-<div class="section-title">🛠️ Habilidades</div>
-<ul>
-  <li>Microsoft Excel / PowerPoint / Word – Nivel Medio</li>
-  <li>Manejo de planometrías y planes de acción</li>
-  <li>Organización de bodega y uso de montacargas</li>
-  <li>Impulso de productos en farmacias y eventos</li>
-</ul>
-
-<div class="section-title">📞 Referencias</div>
-<div class="referencia">
-  <p><strong>Ing. Daniela Valverde C.</strong><br>📱 096 058 6616 | 📧 valverdec.daniela@gmail.com</p>
-</div>
-<div class="referencia">
-  <p><strong>Ing. Walter Reyes</strong><br>📱 099 780 1926 | 📧 walter.reyes92@hotmail.com</p>
-</div>
-🎨 Estilos utilizados
-Fuente: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif para una apariencia moderna y profesional.
-Colores:
-Fondo crema:#fff8e7
-Texto general:#333
-Encabezado azul oscuro: #004080y borde azul claro:#0073e6
-Diseño de encabezado: con imagen circular flotante y borde blanco para destacar visualmente.
-Secciones: centradas con un ancho máximo de 900pxpara mejor lectura.
-Títulos de sección: resaltados con fondo azul, texto blanco y borde lateral para jerarquía.
-Listas y textos: con márgenes y espaciados uniformes.
-Estilo extra: Se ocultó automáticamente el texto azul de GitHub Pages con:
-footer, a[href*="github.io"] { display: none !important; }
+    footer {
+      margin-top: 30px;
+      font-size: 16px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>¡Vamos al cine!</h1>
+    <h2>Te invito a ver Lilo & Stitch</h2>
