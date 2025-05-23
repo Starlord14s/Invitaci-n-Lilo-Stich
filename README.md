@@ -59,7 +59,7 @@
 <body>
   <div class="invitacion">
     <div class="titulo">Una cita especial contigo</div>
-    <div class="subtitulo">Lilo & Stitch bajo las estrellas</div>
+    <div class="subtitulo">Lilo & Stitch</div>
     <div class="detalles">
       <p><strong>Hoy</strong> a las <strong>4:00 p.m.</strong></p>
       <p><strong>Riocentro Ceibos</strong></p>
