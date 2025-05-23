@@ -5,65 +5,62 @@
   <title>Invitación al Cine - Lilo & Stitch</title>
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #fff0f5; /* Rosado suave */
-      color: #333;
       margin: 0;
-      padding: 0;
-      text-align: center;
-    }
-
-    header {
-      background-color: #87cefa; /* Celeste */
+      font-family: 'Comic Sans MS', cursive, sans-serif;
       color: #fff;
-      padding: 30px 20px;
-      border-bottom: 5px solid #ff69b4; /* Rosa fuerte */
+      background: url('fondo.jpg') no-repeat center center fixed;
+      background-size: cover;
     }
 
-    h1 {
-      font-size: 36px;
-      margin: 0;
-    }
-
-    h2 {
-      font-size: 24px;
-      margin: 10px 0;
-      color: #ff69b4;
-    }
-
-    .content {
-      padding: 20px;
-    }
-
-    .image {
-      margin: 20px 0;
-    }
-
-    .image img {
-      width: 250px;
+    .invitacion {
+      background-color: rgba(255, 255, 255, 0.85);
+      border: 6px dashed #ff69b4;
       border-radius: 20px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    }
-
-    .message {
-      font-size: 20px;
-      background-color: #ffe4e1;
-      padding: 20px;
-      border-radius: 15px;
-      display: inline-block;
+      padding: 30px;
       max-width: 600px;
-      margin-top: 20px;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+      margin: 60px auto;
+      text-align: center;
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+      color: #ff1493;
     }
 
-    footer {
-      margin-top: 30px;
+    .titulo {
+      font-size: 36px;
+      font-weight: bold;
+      background: linear-gradient(90deg, #ff69b4, #ff1493);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .subtitulo {
+      font-size: 24px;
+      color: #004080;
+      margin-top: 10px;
+    }
+
+    .detalles {
+      font-size: 18px;
+      color: #333;
+      margin-top: 20px;
+    }
+
+    .pie {
+      margin-top: 25px;
       font-size: 16px;
-      color: #666;
+      color: #444;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>¡Vamos al cine!</h1>
-    <h2>Te invito a ver Lilo & Stitch</h2>
+  <div class="invitacion">
+    <div class="titulo">¡Te invito a ver una película!</div>
+    <div class="subtitulo">Lilo & Stitch</div>
+    <div class="detalles">
+      <p><strong>Fecha:</strong> Hoy</p>
+      <p><strong>Hora:</strong> 4:00 p.m.</p>
+      <p><strong>Lugar:</strong> Riocentro Ceibos</p>
+    </div>
+    <div class="pie">¡No faltes! Será una tarde divertida y especial.</div>
+  </div>
+</body>
+</html>
