@@ -2,9 +2,14 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title></title> <!-- Título vacío para que no muestre texto en la pestaña -->
-  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+  <title></title>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;700&family=Love+Ya+Like+A+Sister&display=swap" rel="stylesheet">
   <style>
+    /* Oculta encabezados automáticos de GitHub Pages */
+    header, footer, a[href*="github.io"], h1, h2, h3, h4, h5, h6 {
+      display: none !important;
+    }
+
     body {
       margin: 0;
       font-family: 'Quicksand', sans-serif;
@@ -28,6 +33,12 @@
       font-family: 'Pacifico', cursive;
       font-size: 48px;
       color: #c71585;
+    }
+
+    .subtitulo,
+    .detalles,
+    .mensaje {
+      font-family: 'Love Ya Like A Sister', cursive;
     }
 
     .subtitulo {
@@ -61,7 +72,7 @@
     <div class="titulo">Una cita especial contigo</div>
     <div class="subtitulo">Lilo & Stitch</div>
     <div class="detalles">
-      <p><strong>Hoy</strong> a las <strong>4:00 p.m.</strong></p>
+      <p><strong>Hoy a las 4:00 p.m.</strong></p>
       <p><strong>Riocentro Ceibos</strong></p>
     </div>
     <div class="mensaje">Quiero compartir esta película contigo y hacer de esta tarde un momento inolvidable.</div>
